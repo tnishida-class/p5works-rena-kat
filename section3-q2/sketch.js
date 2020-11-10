@@ -12,11 +12,11 @@ function kobeCity(x, y, size){
   strokeWeight(size * 0.25);
   strokeCap(SQUARE);
   arc(x + size * 0.25, y, size, size, QUARTER_PI * 3, QUARTER_PI * 3 + PI);
-  // BLANK[1]
+  arc(x-size*0.3 , y ,size,size, QUARTER_PI*5, QUARTER_PI*1);// BLANK[1]
   pop();
 }
 
-// おまけ：神戸大学のロゴを作りたい人向けに色情報だけ置いておきます
+// おまけ：神戸大学のロゴを作りたい人向けに色情報だ置いておきます
 function kobeUniv(x, y, size){
   const red = color(196, 0, 0);
   const blue = color(14, 47, 146);
